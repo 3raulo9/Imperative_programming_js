@@ -3,13 +3,6 @@
 
 This project demonstrates how to dynamically create and insert a header element into an HTML document using JavaScript in an Imperative manner, like you tell the program step by step what to do.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Usage](#usage)
-- [Code Explanation](#code-explanation)
-- [License](#license)
 
 ## Introduction
 
