@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- The head section is empty in this case, but it could contain metadata, links to stylesheets, scripts, etc. -->
+    </head>
+    <body>
+        <!-- This div acts as a container where we will dynamically insert content using JavaScript -->
+        <div id="app"></div>
+
+        <!-- JavaScript code begins here -->
+        <script type="text/javascript">
+            // Select the div element with the id 'app' and store it in the variable 'app'
+            const app = document.getElementById('app');
+
+            // Create a new H1 (header) element and store it in the variable 'header'
+            const header = document.createElement('h1');
+
+            // Define a text string that will be the content of the H1 element
+            const text = 'Develop. Preview. Ship.';
+
+            // Create a text node with the text string and store it in the variable 'headerContent'
+            const headerContent = document.createTextNode(text);
+
+            // Append the text node (headerContent) to the H1 element (header)
+            header.appendChild(headerContent);
+            // At this point, the H1 element contains the text 'Develop. Preview. Ship.'
+
+            // Append the H1 element (header) to the div element (app)
+            app.appendChild(header);
+            // Now, the div with id 'app' contains the H1 element with the text 'Develop. Preview. Ship.'
+        </script>
+    </body>
+</html>
